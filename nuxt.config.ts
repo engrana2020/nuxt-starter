@@ -2,6 +2,8 @@
 import tailwindcss from "@tailwindcss/vite";
 
 export default defineNuxtConfig({
+  serverDir: 'server',
+  watch: [],
   devtools: { enabled: true },
   css: ["~/assets/css/main.css"],
   vite: {
